@@ -3,6 +3,7 @@ import { useSelector } from "react-redux";
 import MetaData from "../layout/MetaData";
 import Loader from "../layout/Loader/Loader";
 import { Link } from "react-router-dom";
+import defaultProfileImg from "../../assets/profile.png";
 import "./Profile.css";
 
 const Profile = ({ history }) => {
@@ -23,7 +24,7 @@ const Profile = ({ history }) => {
           <div className="profileContainer">
             <div>
               <h1>My Profile</h1>
-              <img src={user.avatar.url} alt={user.name} />
+              <img src={user.avatar?.url || defaultProfileImg} alt={user.name} />
               <Link to="/me/update">Edit Profile</Link>
             </div>
             <div>

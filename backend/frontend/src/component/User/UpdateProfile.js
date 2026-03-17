@@ -9,6 +9,7 @@ import { useAlert } from "react-alert";
 import { UPDATE_PROFILE_RESET } from "../../constants/userConstants";
 import MetaData from "../layout/MetaData";
 import { useNavigate } from "react-router-dom";
+import defaultProfileImg from "../../assets/profile.png";
 
 const UpdateProfile = () => {
   const dispatch = useDispatch(); 
@@ -21,7 +22,7 @@ const UpdateProfile = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [avatar, setAvatar] = useState();
-  const [avatarPreview, setAvatarPreview] = useState("/Profile.png");
+  const [avatarPreview, setAvatarPreview] = useState(defaultProfileImg);
 
   const updateProfileSubmit = (e) => {
     e.preventDefault();

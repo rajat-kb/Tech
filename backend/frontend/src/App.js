@@ -49,10 +49,10 @@ function App() {
 
   const [stripeApiKey, setStripeApiKey] = useState("");
 
-  async function getStripeApiKey() {
-    const { data } = await axios.get("/api/v1/stripeapikey");
-    setStripeApiKey(data.stripeApiKey);
-  }
+  // async function getStripeApiKey() {
+  //   const { data } = await axios.get("/api/v1/stripeapikey");
+  //   setStripeApiKey(data.stripeApiKey);
+  // }
 
   useEffect(() => {
     WebFont.load({
@@ -61,7 +61,7 @@ function App() {
       }
     });
     store.dispatch(loadUser());
-    getStripeApiKey();
+    // getStripeApiKey();
   }, []);
 
   // window.addEventListener("contextmenu", (e) => e.preventDefault());

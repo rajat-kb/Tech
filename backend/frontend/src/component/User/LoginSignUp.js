@@ -220,6 +220,7 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import { useDispatch, useSelector } from "react-redux";
 import { clearErrors, login, register } from "../../actions/userAction.js";
 import { useAlert } from "react-alert";
+import defaultProfileImg from "../../assets/profile.png";
 
 const LoginSignUp = () => {
   const dispatch = useDispatch();
@@ -244,8 +245,8 @@ const LoginSignUp = () => {
 
   const { name, email, password } = user;
 
-  const [avatar, setAvatar] = useState("/Profile.png");
-  const [avatarPreview, setAvatarPreview] = useState("/Profile.png");
+  const [avatar, setAvatar] = useState(defaultProfileImg);
+  const [avatarPreview, setAvatarPreview] = useState(defaultProfileImg);
 
   const redirect = location.search ? location.search.split("=")[1] : "/account";
 
