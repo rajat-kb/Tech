@@ -1,18 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.aa87c7b8.css",
-    "main.js": "/static/js/main.a042ceca.js",
+    "main.js": "/static/js/main.cf6c2eda.js",
+    "static/media/headphone.png": "/static/media/headphone.4908d58741696112dd71.png",
+    "static/media/profile.png": "/static/media/profile.9c3dc89bfeb0735a6fe5.png",
+    "static/media/power-bank.png": "/static/media/power-bank.fc2d5585a1a62bf1069e.png",
+    "static/media/watch.png": "/static/media/watch.0355310444158f0ab51a.png",
+    "static/media/black-keyboard.png": "/static/media/black-keyboard.8b8c51a33c00ede1bb09.png",
     "static/media/TechTrove_logo_Black.png": "/static/media/TechTrove_logo_Black.6b2fb477de7634a131eb.png",
-    "static/media/Profile.png": "/static/media/Profile.697fdcd21f6d157b9073.png",
     "static/media/playstore.png": "/static/media/playstore.82b4831979e0ce7c733e.png",
     "static/media/Appstore.png": "/static/media/Appstore.d0c5839937e3c36285f6.png",
-    "static/media/redux.cjs": "/static/media/redux.7edfc461ab353f1712ab.cjs",
     "index.html": "/index.html",
     "main.aa87c7b8.css.map": "/static/css/main.aa87c7b8.css.map",
-    "main.a042ceca.js.map": "/static/js/main.a042ceca.js.map"
+    "main.cf6c2eda.js.map": "/static/js/main.cf6c2eda.js.map"
   },
   "entrypoints": [
     "static/css/main.aa87c7b8.css",
-    "static/js/main.a042ceca.js"
+    "static/js/main.cf6c2eda.js"
   ]
 }
