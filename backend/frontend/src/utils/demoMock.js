@@ -10,8 +10,9 @@ import powerBankImg from "../assets/power-bank.png";
 import keyboardImg from "../assets/black-keyboard.png";
 import profileImg from "../assets/profile.png";
 
-export const isDemoMode = () =>
-  process.env.REACT_APP_DEMO_MODE === "true" || process.env.REACT_APP_DEMO_MODE === "1";
+export const isDemoMode = () => {
+  return true;
+}
 
 const DEMO_USER = {
   _id: "demo-user-1",
